@@ -1,0 +1,17 @@
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto\obj\Debug\Projeto.UI.csprojAssemblyReference.cache
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto\obj\Debug\Projeto.frmPrincipal.resources
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto\obj\Debug\Projeto.Properties.Resources.resources
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto\obj\Debug\Projeto.UI.csproj.GenerateResource.cache
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto\obj\Debug\Projeto.UI.csproj.CoreCompileInputs.cache
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto\bin\Debug\Projeto.exe.config
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto\bin\Debug\Projeto.exe
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto\bin\Debug\Projeto.pdb
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto\bin\Debug\Projeto.BLL.dll
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto\bin\Debug\Projeto.DTO.dll
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto\bin\Debug\Projeto.BLL.pdb
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto\bin\Debug\Projeto.DTO.pdb
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto\obj\Debug\Projeto.UI.csproj.CopyComplete
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto\obj\Debug\Projeto.exe
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto\obj\Debug\Projeto.pdb
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto\obj\Debug\Projeto.Duvidas.resources
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto\obj\Debug\Projeto.Email.resources

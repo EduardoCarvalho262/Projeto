@@ -1,0 +1,6 @@
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto.DTO\bin\Debug\Projeto.DTO.dll
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto.DTO\bin\Debug\Projeto.DTO.pdb
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto.DTO\obj\Debug\Projeto.DTO.csprojAssemblyReference.cache
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto.DTO\obj\Debug\Projeto.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto.DTO\obj\Debug\Projeto.DTO.dll
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto.DTO\obj\Debug\Projeto.DTO.pdb
