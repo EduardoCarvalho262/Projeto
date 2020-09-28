@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.DvgOrcamento = new System.Windows.Forms.DataGridView();
             this.lblNome = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lblTelefone = new System.Windows.Forms.Label();
@@ -37,17 +37,17 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.BtnResponder = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DvgOrcamento)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // DvgOrcamento
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 69);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(636, 559);
-            this.dataGridView1.TabIndex = 0;
+            this.DvgOrcamento.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DvgOrcamento.Location = new System.Drawing.Point(12, 69);
+            this.DvgOrcamento.Name = "DvgOrcamento";
+            this.DvgOrcamento.RowTemplate.Height = 24;
+            this.DvgOrcamento.Size = new System.Drawing.Size(636, 559);
+            this.DvgOrcamento.TabIndex = 0;
             // 
             // lblNome
             // 
@@ -140,10 +140,10 @@
             this.Controls.Add(this.lblTelefone);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lblNome);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.DvgOrcamento);
             this.Name = "Orcamento";
             this.Text = "Orcamento";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DvgOrcamento)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -151,7 +151,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView DvgOrcamento;
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label lblTelefone;
