@@ -16,5 +16,17 @@ namespace Projeto
         {
             InitializeComponent();
         }
+
+        private void dúvidasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Duvidas duvidas = new Duvidas();
+            duvidas.Show();
+        }
+
+        private void orçamentosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Orcamento orcamento = new Orcamento();
+            orcamento.Show();
+        }
     }
 }

@@ -53,12 +53,14 @@
             this.dúvidasToolStripMenuItem.Name = "dúvidasToolStripMenuItem";
             this.dúvidasToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
             this.dúvidasToolStripMenuItem.Text = "Dúvidas";
+            this.dúvidasToolStripMenuItem.Click += new System.EventHandler(this.dúvidasToolStripMenuItem_Click);
             // 
             // orçamentosToolStripMenuItem
             // 
             this.orçamentosToolStripMenuItem.Name = "orçamentosToolStripMenuItem";
             this.orçamentosToolStripMenuItem.Size = new System.Drawing.Size(101, 24);
             this.orçamentosToolStripMenuItem.Text = "Orçamentos";
+            this.orçamentosToolStripMenuItem.Click += new System.EventHandler(this.orçamentosToolStripMenuItem_Click);
             // 
             // sobreToolStripMenuItem
             // 

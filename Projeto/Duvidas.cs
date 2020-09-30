@@ -56,5 +56,11 @@ namespace Projeto
                 throw ex;
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Email email = new Email();
+            email.Show();
+        }
     }
 }
