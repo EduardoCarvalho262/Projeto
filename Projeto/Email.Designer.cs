@@ -47,6 +47,7 @@
             // 
             this.lblPara.AutoSize = true;
             this.lblPara.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPara.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(79)))), ((int)(((byte)(102)))));
             this.lblPara.Location = new System.Drawing.Point(45, 77);
             this.lblPara.Name = "lblPara";
             this.lblPara.Size = new System.Drawing.Size(53, 24);
@@ -65,6 +66,7 @@
             // 
             this.lblDe.AutoSize = true;
             this.lblDe.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(79)))), ((int)(((byte)(102)))));
             this.lblDe.Location = new System.Drawing.Point(45, 158);
             this.lblDe.Name = "lblDe";
             this.lblDe.Size = new System.Drawing.Size(39, 24);
@@ -84,6 +86,7 @@
             // 
             this.lblFicheiro.AutoSize = true;
             this.lblFicheiro.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFicheiro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(79)))), ((int)(((byte)(102)))));
             this.lblFicheiro.Location = new System.Drawing.Point(45, 244);
             this.lblFicheiro.Name = "lblFicheiro";
             this.lblFicheiro.Size = new System.Drawing.Size(150, 24);
@@ -100,19 +103,22 @@
             // 
             // BtnProcurar
             // 
+            this.BtnProcurar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(79)))), ((int)(((byte)(102)))));
             this.BtnProcurar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnProcurar.ForeColor = System.Drawing.Color.White;
             this.BtnProcurar.Location = new System.Drawing.Point(332, 305);
             this.BtnProcurar.Name = "BtnProcurar";
             this.BtnProcurar.Size = new System.Drawing.Size(105, 33);
             this.BtnProcurar.TabIndex = 6;
             this.BtnProcurar.Text = "Procurar";
-            this.BtnProcurar.UseVisualStyleBackColor = true;
+            this.BtnProcurar.UseVisualStyleBackColor = false;
             this.BtnProcurar.Click += new System.EventHandler(this.BtnProcurar_Click);
             // 
             // lblAssunto
             // 
             this.lblAssunto.AutoSize = true;
             this.lblAssunto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAssunto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(79)))), ((int)(((byte)(102)))));
             this.lblAssunto.Location = new System.Drawing.Point(45, 356);
             this.lblAssunto.Name = "lblAssunto";
             this.lblAssunto.Size = new System.Drawing.Size(83, 24);
@@ -131,6 +137,7 @@
             // 
             this.lblMensagem.AutoSize = true;
             this.lblMensagem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMensagem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(79)))), ((int)(((byte)(102)))));
             this.lblMensagem.Location = new System.Drawing.Point(45, 436);
             this.lblMensagem.Name = "lblMensagem";
             this.lblMensagem.Size = new System.Drawing.Size(110, 24);
@@ -149,13 +156,15 @@
             // 
             // BtnEnviar
             // 
+            this.BtnEnviar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(79)))), ((int)(((byte)(102)))));
             this.BtnEnviar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEnviar.ForeColor = System.Drawing.Color.White;
             this.BtnEnviar.Location = new System.Drawing.Point(296, 622);
             this.BtnEnviar.Name = "BtnEnviar";
-            this.BtnEnviar.Size = new System.Drawing.Size(141, 27);
+            this.BtnEnviar.Size = new System.Drawing.Size(141, 35);
             this.BtnEnviar.TabIndex = 11;
             this.BtnEnviar.Text = "Enviar Email";
-            this.BtnEnviar.UseVisualStyleBackColor = true;
+            this.BtnEnviar.UseVisualStyleBackColor = false;
             this.BtnEnviar.Click += new System.EventHandler(this.BtnEnviar_Click);
             // 
             // openFileDialog1
@@ -166,6 +175,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(483, 669);
             this.Controls.Add(this.BtnEnviar);
             this.Controls.Add(this.txtMensagem);
