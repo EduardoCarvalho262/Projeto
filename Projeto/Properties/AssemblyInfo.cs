@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // As informações gerais sobre um assembly são controladas por
 // conjunto de atributos. Altere estes valores de atributo para modificar as informações
 // associada a um assembly.
-[assembly: AssemblyTitle("Projeto")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("IdeaMais Desktop")]
+[assembly: AssemblyDescription("Sistema desenvolvido na UNINOVE para gerenciar dúvidas e orçamentos.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Projeto")]
-[assembly: AssemblyCopyright("Copyright ©  2020")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCompany("IdeaMais")]
+[assembly: AssemblyProduct("IdeaMais Desktop")]
+[assembly: AssemblyCopyright("IdeaMais ©  2020")]
+[assembly: AssemblyTrademark("IdeaMais")]
 [assembly: AssemblyCulture("")]
 
 // Definir ComVisible como false torna os tipos neste assembly invisíveis

@@ -33,5 +33,12 @@ namespace Projeto
         {
             Close();
         }
+
+        private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            IdeaSobre sobre = new IdeaSobre();
+            sobre.Show();
+
+        }
     }
 }
