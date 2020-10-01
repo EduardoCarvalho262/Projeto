@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblDuvidas = new System.Windows.Forms.Label();
             this.DgvDuvidas = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
@@ -45,23 +47,43 @@
             // lblDuvidas
             // 
             this.lblDuvidas.AutoSize = true;
-            this.lblDuvidas.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDuvidas.Location = new System.Drawing.Point(616, 9);
+            this.lblDuvidas.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDuvidas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(79)))), ((int)(((byte)(102)))));
+            this.lblDuvidas.Location = new System.Drawing.Point(603, 9);
             this.lblDuvidas.Name = "lblDuvidas";
-            this.lblDuvidas.Size = new System.Drawing.Size(125, 32);
+            this.lblDuvidas.Size = new System.Drawing.Size(148, 39);
             this.lblDuvidas.TabIndex = 0;
             this.lblDuvidas.Text = "Dúvidas";
             // 
             // DgvDuvidas
             // 
             this.DgvDuvidas.AllowUserToOrderColumns = true;
+            this.DgvDuvidas.BackgroundColor = System.Drawing.Color.WhiteSmoke;
+            this.DgvDuvidas.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.DgvDuvidas.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(79)))), ((int)(((byte)(102)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Blue;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgvDuvidas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.DgvDuvidas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DgvDuvidas.Location = new System.Drawing.Point(12, 90);
+            this.DgvDuvidas.EnableHeadersVisualStyles = false;
+            this.DgvDuvidas.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            this.DgvDuvidas.Location = new System.Drawing.Point(12, 76);
             this.DgvDuvidas.Name = "DgvDuvidas";
             this.DgvDuvidas.ReadOnly = true;
             this.DgvDuvidas.RowHeadersWidth = 20;
             this.DgvDuvidas.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(79)))), ((int)(((byte)(102)))));
+            this.DgvDuvidas.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.DgvDuvidas.RowTemplate.Height = 24;
+            this.DgvDuvidas.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.DgvDuvidas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DgvDuvidas.Size = new System.Drawing.Size(695, 531);
             this.DgvDuvidas.TabIndex = 1;
@@ -72,6 +94,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(79)))), ((int)(((byte)(102)))));
             this.label1.Location = new System.Drawing.Point(756, 142);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(75, 25);
@@ -91,6 +114,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(79)))), ((int)(((byte)(102)))));
             this.label2.Location = new System.Drawing.Point(756, 222);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(72, 25);
@@ -110,6 +134,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(79)))), ((int)(((byte)(102)))));
             this.label3.Location = new System.Drawing.Point(747, 289);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(104, 25);
@@ -120,6 +145,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(79)))), ((int)(((byte)(102)))));
             this.label4.Location = new System.Drawing.Point(747, 382);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(125, 25);
@@ -128,13 +154,15 @@
             // 
             // BtnResponder
             // 
+            this.BtnResponder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(79)))), ((int)(((byte)(102)))));
             this.BtnResponder.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnResponder.ForeColor = System.Drawing.Color.White;
             this.BtnResponder.Location = new System.Drawing.Point(921, 531);
             this.BtnResponder.Name = "BtnResponder";
             this.BtnResponder.Size = new System.Drawing.Size(201, 54);
             this.BtnResponder.TabIndex = 10;
             this.BtnResponder.Text = "Responder";
-            this.BtnResponder.UseVisualStyleBackColor = true;
+            this.BtnResponder.UseVisualStyleBackColor = false;
             this.BtnResponder.Click += new System.EventHandler(this.button1_Click);
             // 
             // txtMensagem
@@ -162,6 +190,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1312, 633);
             this.Controls.Add(this.mskTxtTelefone);
             this.Controls.Add(this.txtMensagem);

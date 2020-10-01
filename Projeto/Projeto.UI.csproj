@@ -59,6 +59,12 @@
     <Compile Include="Email.Designer.cs">
       <DependentUpon>Email.cs</DependentUpon>
     </Compile>
+    <Compile Include="IdeaSobre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IdeaSobre.Designer.cs">
+      <DependentUpon>IdeaSobre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Orcamento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Email.resx">
       <DependentUpon>Email.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IdeaSobre.resx">
+      <DependentUpon>IdeaSobre.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Orcamento.resx">
       <DependentUpon>Orcamento.cs</DependentUpon>

@@ -28,5 +28,10 @@ namespace Projeto
             Orcamento orcamento = new Orcamento();
             orcamento.Show();
         }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

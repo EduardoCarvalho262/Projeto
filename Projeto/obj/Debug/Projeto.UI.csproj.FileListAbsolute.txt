@@ -19,3 +19,4 @@ C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto\bin\Debug\Proje
 C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto\bin\Debug\Projeto.DAL.pdb
 C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto\bin\Debug\Projeto.DAL.dll.config
 C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto\obj\Debug\Projeto.Orcamento.resources
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto\obj\Debug\Projeto.IdeaSobre.resources
