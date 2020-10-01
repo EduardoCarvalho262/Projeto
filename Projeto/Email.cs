@@ -13,9 +13,11 @@ namespace Projeto
 {
     public partial class Email : Form
     {
-        public Email()
+        public Email(string email, string assunto)
         {
             InitializeComponent();
+            txtPara.Text = email;
+            txtAssunto.Text = assunto;
         }
 
         private void Email_Load(object sender, EventArgs e)

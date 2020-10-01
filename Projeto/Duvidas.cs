@@ -59,7 +59,9 @@ namespace Projeto
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Email email = new Email();
+            string emailform = txtEmail.Text;
+            string assunto = "Responde sua Dúvida!!";
+            Email email = new Email(emailform, assunto);
             email.Show();
         }
     }
