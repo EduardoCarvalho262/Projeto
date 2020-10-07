@@ -22,7 +22,7 @@ namespace Projeto.DAL
                 //Criaçao do comando Select sql
                 SqlCommand CM = new SqlCommand();
                 CM.CommandType = System.Data.CommandType.Text;
-                CM.CommandText = "SELECT * FROM contatos";
+                CM.CommandText = "SELECT * FROM contatos WHERE situacao = '1'";
                 CM.Connection = CON;
 
                 //Criação da leitura dos dados da tabela
@@ -48,6 +48,7 @@ namespace Projeto.DAL
                         cont.telefone = Convert.ToString(ER["telefone"]);
                         cont.email = Convert.ToString(ER["email"]);
                         cont.mensagem = Convert.ToString(ER["mensagem"]);
+                        cont.situacao = Convert.ToString(ER["situacao"]);
                         listContatoDTO.Add(cont);
                     }
 

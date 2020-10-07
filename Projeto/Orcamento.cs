@@ -47,14 +47,38 @@ namespace Projeto
             txtNome.Text = Convert.ToString(DvgOrcamento["nome", sel].Value);
             txtTelefone.Text = Convert.ToString(DvgOrcamento["telefone", sel].Value);
             txtEmail.Text = Convert.ToString(DvgOrcamento["email", sel].Value);
+
+            if (Convert.ToString(DvgOrcamento["situacao", sel].Value) == "1")
+            {
+                cboSituacao.Text = "Não Respondido";
+            }
+            else
+            {
+                cboSituacao.Text = "Respondido";
+              
+            }
+
+
         }
 
         private void BtnResponder_Click(object sender, EventArgs e)
         {
-            string emailform = txtEmail.Text;
-            string assunto = "Orçamento";
-            Email email = new Email(emailform, assunto);
-            email.Show();
+            if (cboSituacao.Text == "Não Respondido")
+            {
+                MessageBox.Show("MUDE A SITUAÇÃO!!");
+            }
+            else if (txtNome.Text == "")
+            {
+                MessageBox.Show("Selecione um Orçamento!!");
+            }
+            else
+            {
+                string emailform = txtEmail.Text;
+                string assunto = "Orçamento";
+                Email email = new Email(emailform, assunto);
+                email.Show();
+            }
+
         }
     }
 }

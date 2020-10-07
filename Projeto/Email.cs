@@ -10,14 +10,16 @@ using System.Windows.Forms;
 using System.Net.Mail;
 
 namespace Projeto
-{
+{ 
     public partial class Email : Form
     {
+        private string teste;
         public Email(string email, string assunto)
         {
             InitializeComponent();
             txtPara.Text = email;
             txtAssunto.Text = assunto;
+            teste = email;
         }
 
         private void Email_Load(object sender, EventArgs e)
@@ -32,8 +34,8 @@ namespace Projeto
 
         private void BtnEnviar_Click(object sender, EventArgs e)
         {
-
             SendEmail();
+
         }
 
         private void SendEmail()

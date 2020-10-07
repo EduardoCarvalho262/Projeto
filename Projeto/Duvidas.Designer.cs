@@ -41,6 +41,8 @@
             this.BtnResponder = new System.Windows.Forms.Button();
             this.txtMensagem = new System.Windows.Forms.TextBox();
             this.mskTxtTelefone = new System.Windows.Forms.MaskedTextBox();
+            this.lblSituacao = new System.Windows.Forms.Label();
+            this.cboSituacao = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.DgvDuvidas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,7 +53,7 @@
             this.lblDuvidas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(79)))), ((int)(((byte)(102)))));
             this.lblDuvidas.Location = new System.Drawing.Point(603, 9);
             this.lblDuvidas.Name = "lblDuvidas";
-            this.lblDuvidas.Size = new System.Drawing.Size(148, 39);
+            this.lblDuvidas.Size = new System.Drawing.Size(143, 38);
             this.lblDuvidas.TabIndex = 0;
             this.lblDuvidas.Text = "Dúvidas";
             // 
@@ -95,7 +97,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(79)))), ((int)(((byte)(102)))));
-            this.label1.Location = new System.Drawing.Point(756, 142);
+            this.label1.Location = new System.Drawing.Point(759, 79);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(75, 25);
             this.label1.TabIndex = 2;
@@ -104,7 +106,7 @@
             // txtNome
             // 
             this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNome.Location = new System.Drawing.Point(881, 141);
+            this.txtNome.Location = new System.Drawing.Point(884, 78);
             this.txtNome.Name = "txtNome";
             this.txtNome.ReadOnly = true;
             this.txtNome.Size = new System.Drawing.Size(416, 28);
@@ -115,7 +117,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(79)))), ((int)(((byte)(102)))));
-            this.label2.Location = new System.Drawing.Point(756, 222);
+            this.label2.Location = new System.Drawing.Point(759, 159);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(72, 25);
             this.label2.TabIndex = 4;
@@ -124,7 +126,7 @@
             // txtEmail
             // 
             this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmail.Location = new System.Drawing.Point(881, 219);
+            this.txtEmail.Location = new System.Drawing.Point(884, 156);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.ReadOnly = true;
             this.txtEmail.Size = new System.Drawing.Size(416, 28);
@@ -135,7 +137,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(79)))), ((int)(((byte)(102)))));
-            this.label3.Location = new System.Drawing.Point(747, 289);
+            this.label3.Location = new System.Drawing.Point(750, 226);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(104, 25);
             this.label3.TabIndex = 6;
@@ -146,7 +148,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(79)))), ((int)(((byte)(102)))));
-            this.label4.Location = new System.Drawing.Point(747, 382);
+            this.label4.Location = new System.Drawing.Point(750, 319);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(125, 25);
             this.label4.TabIndex = 8;
@@ -168,7 +170,7 @@
             // txtMensagem
             // 
             this.txtMensagem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMensagem.Location = new System.Drawing.Point(878, 336);
+            this.txtMensagem.Location = new System.Drawing.Point(884, 273);
             this.txtMensagem.MaxLength = 255;
             this.txtMensagem.Multiline = true;
             this.txtMensagem.Name = "txtMensagem";
@@ -179,12 +181,34 @@
             // mskTxtTelefone
             // 
             this.mskTxtTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mskTxtTelefone.Location = new System.Drawing.Point(878, 293);
+            this.mskTxtTelefone.Location = new System.Drawing.Point(884, 226);
             this.mskTxtTelefone.Mask = "00000-0000";
             this.mskTxtTelefone.Name = "mskTxtTelefone";
             this.mskTxtTelefone.ReadOnly = true;
             this.mskTxtTelefone.Size = new System.Drawing.Size(206, 28);
             this.mskTxtTelefone.TabIndex = 12;
+            // 
+            // lblSituacao
+            // 
+            this.lblSituacao.AutoSize = true;
+            this.lblSituacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSituacao.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(79)))), ((int)(((byte)(102)))));
+            this.lblSituacao.Location = new System.Drawing.Point(759, 456);
+            this.lblSituacao.Name = "lblSituacao";
+            this.lblSituacao.Size = new System.Drawing.Size(104, 25);
+            this.lblSituacao.TabIndex = 13;
+            this.lblSituacao.Text = "Situacao:";
+            // 
+            // cboSituacao
+            // 
+            this.cboSituacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboSituacao.FormattingEnabled = true;
+            this.cboSituacao.Items.AddRange(new object[] {
+            "Respondido"});
+            this.cboSituacao.Location = new System.Drawing.Point(884, 456);
+            this.cboSituacao.Name = "cboSituacao";
+            this.cboSituacao.Size = new System.Drawing.Size(416, 30);
+            this.cboSituacao.TabIndex = 14;
             // 
             // Duvidas
             // 
@@ -192,6 +216,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1312, 633);
+            this.Controls.Add(this.cboSituacao);
+            this.Controls.Add(this.lblSituacao);
             this.Controls.Add(this.mskTxtTelefone);
             this.Controls.Add(this.txtMensagem);
             this.Controls.Add(this.BtnResponder);
@@ -225,5 +251,7 @@
         private System.Windows.Forms.TextBox txtMensagem;
         private System.Windows.Forms.MaskedTextBox mskTxtTelefone;
         private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.Label lblSituacao;
+        private System.Windows.Forms.ComboBox cboSituacao;
     }
 }

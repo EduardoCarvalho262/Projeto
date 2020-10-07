@@ -40,6 +40,16 @@ namespace Projeto
             txtEmail.Text = Convert.ToString(DgvDuvidas["email", sel].Value);
             mskTxtTelefone.Text = Convert.ToString(DgvDuvidas["telefone", sel].Value);
             txtMensagem.Text = Convert.ToString(DgvDuvidas["mensagem", sel].Value);
+
+            if (Convert.ToString(DgvDuvidas["situacao", sel].Value) == "1")
+            {
+                cboSituacao.Text = "Não Respondido";
+            }
+            else
+            {
+                cboSituacao.Text = "Respondido";
+            }
+
         }
 
         private void CarregaGrid()
@@ -59,10 +69,22 @@ namespace Projeto
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string emailform = txtEmail.Text;
-            string assunto = "Responde sua Dúvida!!";
-            Email email = new Email(emailform, assunto);
-            email.Show();
+            if(cboSituacao.Text == "Não Respondido")
+            {
+                MessageBox.Show("MUDE A SITUAÇÃO!!");
+            }
+            else if (txtNome.Text == "") {
+                MessageBox.Show("Selecione uma Dúvida!!");
+            }
+            else
+            {
+                string emailform = txtEmail.Text;
+                string assunto = "Responde sua Dúvida!!";
+                Email email = new Email(emailform, assunto);
+                email.Show();
+            }
+
+           
         }
     }
 }

@@ -22,7 +22,7 @@ namespace Projeto.DAL
                 //Criaçao do comando Select sql
                 SqlCommand CM = new SqlCommand();
                 CM.CommandType = System.Data.CommandType.Text;
-                CM.CommandText = "SELECT * FROM orcamentos";
+                CM.CommandText = "SELECT * FROM orcamentos WHERE situacao = '1'";
                 CM.Connection = CON;
 
 
@@ -48,6 +48,7 @@ namespace Projeto.DAL
                         orc.nome = Convert.ToString(ER["nome"]);
                         orc.telefone = Convert.ToString(ER["telefone"]);
                         orc.email = Convert.ToString(ER["email"]);
+                        orc.situacao = Convert.ToString(ER["situacao"]);
                         listOrcamentoDTO.Add(orc);
                     }
 

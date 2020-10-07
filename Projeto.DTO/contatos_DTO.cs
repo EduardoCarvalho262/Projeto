@@ -13,5 +13,6 @@ namespace Projeto.DTO
         public string telefone { get; set; }
         public string email { get; set; }
         public string mensagem { get; set; }
+        public string situacao { get; set; }
     }
 }
