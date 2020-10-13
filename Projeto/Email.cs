@@ -8,18 +8,22 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net.Mail;
+using Projeto.DTO;
+using Projeto.BLL;
 
 namespace Projeto
 { 
     public partial class Email : Form
     {
-        private string teste;
+        private string emailForm;
+        private string assuntoTela;
         public Email(string email, string assunto)
         {
             InitializeComponent();
             txtPara.Text = email;
             txtAssunto.Text = assunto;
-            teste = email;
+            emailForm = email;
+            assuntoTela = assunto;
         }
 
         private void Email_Load(object sender, EventArgs e)
@@ -87,6 +91,21 @@ namespace Projeto
             smtp.Send(message);
 
             MessageBox.Show("Email enviado com sucesso!", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            if(assuntoTela == "Responde sua Dúvida!!")
+                {
+                    ContatosBLL contatosBLL = new ContatosBLL();
+                    contatosBLL.AtualizaSituacao(emailForm);
+                    MessageBox.Show("Duvidas feita", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    OrcamentosBLL orcamentosBLL = new OrcamentosBLL();
+                    orcamentosBLL.AtualizaSituacao(emailForm);
+                    MessageBox.Show("Orcamento feito");
+                }
+
+ 
 
             }
             catch (Exception ex)

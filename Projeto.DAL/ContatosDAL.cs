@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -58,6 +59,28 @@ namespace Projeto.DAL
 
             }
             catch(Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public int atualizaSituacao(string email)
+        {
+            try
+            {
+                SqlConnection CON = new SqlConnection();
+                CON.ConnectionString = Properties.Settings.Default.CST;
+                SqlCommand CM = new SqlCommand();
+                CM.CommandType = System.Data.CommandType.Text;                CM.CommandText = "UPDATE contatos set situacao = '2' WHERE email= @email";
+
+                CM.Parameters.Add("@email", SqlDbType.VarChar);
+                CM.Parameters["@email"].Value = email;
+                CM.Connection = CON;
+
+                CON.Open();
+                int qtd = CM.ExecuteNonQuery();
+                return qtd;
+            }
+            catch (Exception ex)
             {
                 throw ex;
             }

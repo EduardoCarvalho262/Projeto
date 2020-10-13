@@ -22,5 +22,16 @@ namespace Projeto.BLL
                 throw ex;
             }
         }
+        public int AtualizaSituacao(string email)
+        {
+            try
+            {
+                return new OrcamentosDAL().atualizaSituacao(email);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }
