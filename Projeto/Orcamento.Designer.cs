@@ -42,6 +42,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.lblSituacao = new System.Windows.Forms.Label();
             this.cboSituacao = new System.Windows.Forms.ComboBox();
+            this.BtnAtualizar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DvgOrcamento)).BeginInit();
             this.SuspendLayout();
             // 
@@ -146,7 +147,7 @@
             this.BtnResponder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(79)))), ((int)(((byte)(102)))));
             this.BtnResponder.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnResponder.ForeColor = System.Drawing.Color.White;
-            this.BtnResponder.Location = new System.Drawing.Point(749, 473);
+            this.BtnResponder.Location = new System.Drawing.Point(749, 483);
             this.BtnResponder.Name = "BtnResponder";
             this.BtnResponder.Size = new System.Drawing.Size(201, 54);
             this.BtnResponder.TabIndex = 7;
@@ -188,12 +189,26 @@
             this.cboSituacao.Size = new System.Drawing.Size(370, 30);
             this.cboSituacao.TabIndex = 10;
             // 
+            // BtnAtualizar
+            // 
+            this.BtnAtualizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(79)))), ((int)(((byte)(102)))));
+            this.BtnAtualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAtualizar.ForeColor = System.Drawing.Color.White;
+            this.BtnAtualizar.Location = new System.Drawing.Point(749, 552);
+            this.BtnAtualizar.Name = "BtnAtualizar";
+            this.BtnAtualizar.Size = new System.Drawing.Size(201, 54);
+            this.BtnAtualizar.TabIndex = 11;
+            this.BtnAtualizar.Text = "Atualizar";
+            this.BtnAtualizar.UseVisualStyleBackColor = false;
+            this.BtnAtualizar.Click += new System.EventHandler(this.BtnAtualizar_Click);
+            // 
             // Orcamento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1074, 640);
+            this.Controls.Add(this.BtnAtualizar);
             this.Controls.Add(this.cboSituacao);
             this.Controls.Add(this.lblSituacao);
             this.Controls.Add(this.label4);
@@ -227,5 +242,6 @@
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label lblSituacao;
         private System.Windows.Forms.ComboBox cboSituacao;
+        private System.Windows.Forms.Button BtnAtualizar;
     }
 }

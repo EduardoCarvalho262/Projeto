@@ -96,13 +96,13 @@ namespace Projeto
                 {
                     ContatosBLL contatosBLL = new ContatosBLL();
                     contatosBLL.AtualizaSituacao(emailForm);
-                    MessageBox.Show("Duvidas feita", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Close();
                 }
                 else
                 {
                     OrcamentosBLL orcamentosBLL = new OrcamentosBLL();
                     orcamentosBLL.AtualizaSituacao(emailForm);
-                    MessageBox.Show("Orcamento feito");
+                    Close();
                 }
 
  

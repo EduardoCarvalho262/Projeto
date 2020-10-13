@@ -86,5 +86,15 @@ namespace Projeto
 
            
         }
+
+        private void BtnAtualizar_Click(object sender, EventArgs e)
+        {
+            txtEmail.Text = "";
+            mskTxtTelefone.Text = "";
+            txtMensagem.Text = "";
+            txtNome.Text = "";
+            cboSituacao.Text = "";
+            CarregaGrid();
+        }
     }
 }

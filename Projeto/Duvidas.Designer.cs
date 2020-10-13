@@ -43,6 +43,7 @@
             this.mskTxtTelefone = new System.Windows.Forms.MaskedTextBox();
             this.lblSituacao = new System.Windows.Forms.Label();
             this.cboSituacao = new System.Windows.Forms.ComboBox();
+            this.BtnAtualizar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DgvDuvidas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -159,7 +160,7 @@
             this.BtnResponder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(79)))), ((int)(((byte)(102)))));
             this.BtnResponder.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnResponder.ForeColor = System.Drawing.Color.White;
-            this.BtnResponder.Location = new System.Drawing.Point(921, 531);
+            this.BtnResponder.Location = new System.Drawing.Point(921, 505);
             this.BtnResponder.Name = "BtnResponder";
             this.BtnResponder.Size = new System.Drawing.Size(201, 54);
             this.BtnResponder.TabIndex = 10;
@@ -210,12 +211,26 @@
             this.cboSituacao.Size = new System.Drawing.Size(416, 30);
             this.cboSituacao.TabIndex = 14;
             // 
+            // BtnAtualizar
+            // 
+            this.BtnAtualizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(79)))), ((int)(((byte)(102)))));
+            this.BtnAtualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAtualizar.ForeColor = System.Drawing.Color.White;
+            this.BtnAtualizar.Location = new System.Drawing.Point(921, 576);
+            this.BtnAtualizar.Name = "BtnAtualizar";
+            this.BtnAtualizar.Size = new System.Drawing.Size(201, 54);
+            this.BtnAtualizar.TabIndex = 15;
+            this.BtnAtualizar.Text = "Atualizar";
+            this.BtnAtualizar.UseVisualStyleBackColor = false;
+            this.BtnAtualizar.Click += new System.EventHandler(this.BtnAtualizar_Click);
+            // 
             // Duvidas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1312, 633);
+            this.Controls.Add(this.BtnAtualizar);
             this.Controls.Add(this.cboSituacao);
             this.Controls.Add(this.lblSituacao);
             this.Controls.Add(this.mskTxtTelefone);
@@ -253,5 +268,6 @@
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label lblSituacao;
         private System.Windows.Forms.ComboBox cboSituacao;
+        private System.Windows.Forms.Button BtnAtualizar;
     }
 }

@@ -59,6 +59,7 @@
             this.txtPara.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPara.Location = new System.Drawing.Point(45, 104);
             this.txtPara.Name = "txtPara";
+            this.txtPara.ReadOnly = true;
             this.txtPara.Size = new System.Drawing.Size(392, 28);
             this.txtPara.TabIndex = 1;
             // 
@@ -130,6 +131,7 @@
             this.txtAssunto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAssunto.Location = new System.Drawing.Point(44, 383);
             this.txtAssunto.Name = "txtAssunto";
+            this.txtAssunto.ReadOnly = true;
             this.txtAssunto.Size = new System.Drawing.Size(392, 28);
             this.txtAssunto.TabIndex = 8;
             // 
