@@ -130,5 +130,47 @@
   <ItemGroup>
     <None Include="Resources\Design and Technology %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-delete-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-maximize-window-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-help-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-spreadsheet-file-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-help-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-help-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-spreadsheet-file-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-info-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-exit-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-toggle-full-screen-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-restore-window-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
