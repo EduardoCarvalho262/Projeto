@@ -13,7 +13,7 @@ using Projeto.BLL;
 
 namespace Projeto
 { 
-    public partial class Email : Form
+    public partial class Email : MetroFramework.Forms.MetroForm
     {
         private string emailForm;
         private string assuntoTela;

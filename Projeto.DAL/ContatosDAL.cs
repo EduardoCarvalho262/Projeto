@@ -44,7 +44,7 @@ namespace Projeto.DAL
                     {
                         contatos_DTO cont = new contatos_DTO();
 
-                        cont.id = Convert.ToInt32(ER["id"]);
+                       // cont.id = Convert.ToInt32(ER["id"]);
                         cont.nome = Convert.ToString(ER["nome"]);
                         cont.telefone = Convert.ToString(ER["telefone"]);
                         cont.email = Convert.ToString(ER["email"]);
@@ -70,7 +70,8 @@ namespace Projeto.DAL
                 SqlConnection CON = new SqlConnection();
                 CON.ConnectionString = Properties.Settings.Default.CST;
                 SqlCommand CM = new SqlCommand();
-                CM.CommandType = System.Data.CommandType.Text;                CM.CommandText = "UPDATE contatos set situacao = '2' WHERE email= @email";
+                CM.CommandType = System.Data.CommandType.Text;
+                CM.CommandText = "UPDATE contatos set situacao = '2' WHERE email= @email";
 
                 CM.Parameters.Add("@email", SqlDbType.VarChar);
                 CM.Parameters["@email"].Value = email;

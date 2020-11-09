@@ -55,7 +55,6 @@
             this.panelCabecalho.Name = "panelCabecalho";
             this.panelCabecalho.Size = new System.Drawing.Size(1920, 1080);
             this.panelCabecalho.TabIndex = 2;
-            this.panelCabecalho.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panelCabecalho_MouseMove);
             // 
             // btnMaximizar
             // 

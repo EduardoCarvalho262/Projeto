@@ -44,17 +44,24 @@ namespace Projeto
 
         private void btnDuvidas_Click(object sender, EventArgs e)
         {
-            AbrirFormNoPanel<Duvidas>();
+            //AbrirFormNoPanel<Duvidas>();
+            MetroFramework.Forms.MetroForm metroForm = new Duvidas();
+            metroForm.Show();
         }
 
         private void btnSobre_Click(object sender, EventArgs e)
         {
-            AbrirFormNoPanel<IdeaSobre>();
+            // AbrirFormNoPanel<IdeaSobre>();
+            MetroFramework.Forms.MetroForm metroForm = new IdeaSobre();
+            metroForm.Show();
         }
 
         private void btnOrcamento_Click(object sender, EventArgs e)
         {
-            AbrirFormNoPanel<Orcamento>();
+            //AbrirFormNoPanel<Orcamento>();
+            MetroFramework.Forms.MetroForm metroForm = new Orcamento();
+            metroForm.Show();
+           
         }
 
         private void btnSair_Click(object sender, EventArgs e)
@@ -69,7 +76,7 @@ namespace Projeto
 
 
 
-        private void AbrirFormNoPanel<Forms>() where Forms : Form, new()
+       /* private void AbrirFormNoPanel<Forms>() where Forms : Form, new()
         {
             Form formulario;
             formulario = panelConteudo.Controls.OfType<Forms>().FirstOrDefault();
@@ -91,16 +98,16 @@ namespace Projeto
                     formulario.WindowState = FormWindowState.Normal;
                 formulario.BringToFront();
             }
-        }
+        } */
 
-        private void panelCabecalho_MouseMove(object sender, MouseEventArgs e)
+       /* private void panelCabecalho_MouseMove(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
             {
                 ReleaseCapture();
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
             }
-        }
+        } */
 
         private void btnMaximizar_Click(object sender, EventArgs e)
         {

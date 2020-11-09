@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace Projeto
 {
-    partial class IdeaSobre : Form
+    partial class IdeaSobre :MetroFramework.Forms.MetroForm
     {
         public IdeaSobre()
         {
@@ -108,6 +108,16 @@ namespace Projeto
         }
 
         private void logoPictureBox_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void labelCopyright_Click(object sender, EventArgs e)
         {
 
         }

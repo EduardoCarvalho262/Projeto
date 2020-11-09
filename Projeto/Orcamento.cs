@@ -13,7 +13,7 @@ using Projeto.BLL;
 
 namespace Projeto
 {
-    public partial class Orcamento : Form
+    public partial class Orcamento :  MetroFramework.Forms.MetroForm
     {
         public Orcamento()
         {
@@ -75,8 +75,8 @@ namespace Projeto
             {
                 string emailform = txtEmail.Text;
                 string assunto = "Orçamento";
-                Email email = new Email(emailform, assunto);
-                email.Show();
+                MetroFramework.Forms.MetroForm email = new Email(emailform, assunto);
+                email.Show(); ;
             }
 
         }

@@ -13,7 +13,7 @@ using Projeto.BLL;
 
 namespace Projeto
 {
-    public partial class Duvidas : Form
+    public partial class Duvidas : MetroFramework.Forms.MetroForm
     {
         public Duvidas()
         {
@@ -80,7 +80,7 @@ namespace Projeto
             {
                 string emailform = txtEmail.Text;
                 string assunto = "Responde sua Dúvida!!";
-                Email email = new Email(emailform, assunto);
+                MetroFramework.Forms.MetroForm email = new Email(emailform, assunto);
                 email.Show();
             }
 

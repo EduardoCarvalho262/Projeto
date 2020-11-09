@@ -8,3 +8,6 @@ C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto.DAL\obj\Debug\P
 C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto.DAL\obj\Debug\Projeto.DAL.dll
 C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto.DAL\obj\Debug\Projeto.DAL.pdb
 C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto.DAL\bin\Debug\Projeto.DAL.dll.config
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto.DAL\bin\Debug\MetroFramework.Design.dll
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto.DAL\bin\Debug\MetroFramework.dll
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto.DAL\bin\Debug\MetroFramework.Fonts.dll

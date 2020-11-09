@@ -10,3 +10,6 @@ C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto.BLL\obj\Debug\P
 C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto.BLL\obj\Debug\Projeto.BLL.dll
 C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto.BLL\obj\Debug\Projeto.BLL.pdb
 C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto.BLL\bin\Debug\Projeto.DAL.dll.config
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto.BLL\bin\Debug\MetroFramework.Design.dll
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto.BLL\bin\Debug\MetroFramework.dll
+C:\Users\Eduardo\Documents\Meus Projetos 2020\C#\Projeto\Projeto.BLL\bin\Debug\MetroFramework.Fonts.dll
