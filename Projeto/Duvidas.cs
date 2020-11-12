@@ -45,10 +45,10 @@ namespace Projeto
             {
                 cboSituacao.Text = "Não Respondido";
             }
-            else
+           /* else
             {
                 cboSituacao.Text = "Respondido";
-            }
+            }*/
 
         }
 

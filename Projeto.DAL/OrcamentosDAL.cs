@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MySql.Data.MySqlClient;
 
 using Projeto.DTO;
 
@@ -17,18 +18,18 @@ namespace Projeto.DAL
             try
             {
                 //Criação da string de Conexão
-                SqlConnection CON = new SqlConnection();
-                CON.ConnectionString = Properties.Settings.Default.CST;
+                MySqlConnection CON = new MySqlConnection();
+                CON.ConnectionString = Properties.Settings.Default.CST_MYSQL;
 
                 //Criaçao do comando Select sql
-                SqlCommand CM = new SqlCommand();
+                MySqlCommand CM = new MySqlCommand();
                 CM.CommandType = System.Data.CommandType.Text;
                 CM.CommandText = "SELECT * FROM orcamentos WHERE situacao = '1'";
                 CM.Connection = CON;
 
 
                 //Criação da leitura dos dados da tabela
-                SqlDataReader ER;
+                MySqlDataReader ER;
 
                 //Lista que irá armazenar os dados que serão lidos
                 IList<orcamentos_DTO> listOrcamentoDTO = new List<orcamentos_DTO>();
@@ -67,13 +68,13 @@ namespace Projeto.DAL
         {
             try
             {
-                SqlConnection CON = new SqlConnection();
-                CON.ConnectionString = Properties.Settings.Default.CST;
-                SqlCommand CM = new SqlCommand();
+                MySqlConnection CON = new MySqlConnection();
+                CON.ConnectionString = Properties.Settings.Default.CST_MYSQL;
+                MySqlCommand CM = new MySqlCommand();
                 CM.CommandType = System.Data.CommandType.Text;
                 CM.CommandText = "UPDATE orcamentos set situacao = '2' WHERE email= @email";
 
-                CM.Parameters.Add("@email", SqlDbType.VarChar);
+                CM.Parameters.Add("@email", MySqlDbType.VarChar);
                 CM.Parameters["@email"].Value = email;
                 CM.Connection = CON;
 

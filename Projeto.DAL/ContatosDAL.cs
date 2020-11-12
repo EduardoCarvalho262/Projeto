@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using MySql.Data.MySqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,17 +18,17 @@ namespace Projeto.DAL
             try
             {
                 //Criando a string de conexão
-                SqlConnection CON = new SqlConnection();
-                CON.ConnectionString = Properties.Settings.Default.CST;
+                MySqlConnection CON = new MySqlConnection();
+                CON.ConnectionString = Properties.Settings.Default.CST_MYSQL;
 
                 //Criaçao do comando Select sql
-                SqlCommand CM = new SqlCommand();
+                MySqlCommand CM = new MySqlCommand();
                 CM.CommandType = System.Data.CommandType.Text;
                 CM.CommandText = "SELECT * FROM contatos WHERE situacao = '1'";
                 CM.Connection = CON;
 
                 //Criação da leitura dos dados da tabela
-                SqlDataReader ER;
+                MySqlDataReader ER;
 
                 //Lista que irá armazenar os dados que serão lidos
                 IList<contatos_DTO> listContatoDTO = new List<contatos_DTO>();
@@ -67,13 +68,13 @@ namespace Projeto.DAL
         {
             try
             {
-                SqlConnection CON = new SqlConnection();
-                CON.ConnectionString = Properties.Settings.Default.CST;
-                SqlCommand CM = new SqlCommand();
+                MySqlConnection CON = new MySqlConnection();
+                CON.ConnectionString = Properties.Settings.Default.CST_MYSQL;
+                MySqlCommand CM = new MySqlCommand();
                 CM.CommandType = System.Data.CommandType.Text;
                 CM.CommandText = "UPDATE contatos set situacao = '2' WHERE email= @email";
 
-                CM.Parameters.Add("@email", SqlDbType.VarChar);
+                CM.Parameters.Add("@email", MySqlDbType.VarChar);
                 CM.Parameters["@email"].Value = email;
                 CM.Connection = CON;
 

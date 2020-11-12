@@ -33,5 +33,15 @@ namespace Projeto.DAL.Properties {
                 return ((string)(this["CST"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("server=localhost;user id=root;database=ideamais")]
+        public string CST_MYSQL {
+            get {
+                return ((string)(this["CST_MYSQL"]));
+            }
+        }
     }
 }
