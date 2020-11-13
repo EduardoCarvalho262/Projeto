@@ -64,7 +64,7 @@ namespace Projeto
             message.Subject = txtAssunto.Text;
 
             //Endereço de email da pessoa que vai enviar ele
-            message.From = new MailAddress("eduardoc313@gmail.com");
+            message.From = new MailAddress("ideamais.gestao@gmail.com");
 
             //Corpo do email
             message.Body = txtMensagem.Text;
@@ -86,7 +86,7 @@ namespace Projeto
 
             //Definição das credenciais a serem usadas
             //Lembrando que o acesso de segunraça do google deve estar habilitado
-            smtp.Credentials = new System.Net.NetworkCredential("eduardoc313@gmail.com", "SAOPAULO");
+            smtp.Credentials = new System.Net.NetworkCredential("ideamais.gestao@gmail.com", "ideamais123");
 
             smtp.Send(message);
 
